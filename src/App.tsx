@@ -2,16 +2,8 @@ import { useEffect, useState } from "react";
 import CreateTransaction from "./components/CreateTransaction";
 import TransactionsTable from "./components/TransactionsTable";
 import axios from "axios";
+import { DataType } from "./interface";
 
-interface DataType {
-  key: React.Key;
-  id: number;
-  date: string;
-  author: string;
-  sum: number;
-  category: string;
-  comment: string;
-}
 
 function App() {
   const [data, setData] = useState<DataType[]>([]);
