@@ -71,7 +71,7 @@ const CreateTransaction = ({ getTransactions }: CreateTransactionProps) => {
         <Form
           {...layout}
           form={form}
-          name="control-hooks"
+          name="create"
           onFinish={onFinish}
           style={{ width: 400 }}
         >

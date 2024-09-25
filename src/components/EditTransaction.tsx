@@ -75,7 +75,7 @@ const EditTransaction = ({
         <Form
           {...layout}
           form={form}
-          name="control-hooks"
+          name="edit"
           onFinish={onFinish}
           initialValues={{
             author: singleTransaction?.author || "",
